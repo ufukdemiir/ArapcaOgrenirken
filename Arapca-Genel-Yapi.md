@@ -1,6 +1,7 @@
 # Arapça
 
 <details>
+
 <summary>
 
 ## Sarf (Kelime)
@@ -36,6 +37,7 @@ Mastar (kitabet - yazmak)
 </details>
 
 <details>
+
 <summary>
 
 ## Nahiv (Cümle)
