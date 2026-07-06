@@ -1,8 +1,8 @@
 # Arapça
 
+## Sarf (Kelime)
 <details>
-<summary><h2>Sarf (Kelime)</h2></summary>
-<div style="margin-top: -20px; margin-bottom: -20px;">
+<summary>Detayları Göster/Gizle</summary>
 
 ### Emsile
 #### Muttaride
@@ -23,15 +23,13 @@ Mastar (kitabet - yazmak)
 ### Binâ
 ### Maksut
 ### İzzi
-</div>
 </details>
 
+## Nahiv (Cümle)
 <details>
-<summary><h2>Nahiv (Cümle)</h2></summary>
-<div style="margin-top: -20px; margin-bottom: -20px;">
+<summary>Detayları Göster/Gizle</summary>
 
 ### Avâmil
 ### İzhar
 ### Kâfiye
-</div>
 </details>
