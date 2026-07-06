@@ -1,18 +1,9 @@
-<details>
-<summary>
-
 # Arapça
-
-</summary>
-</details>
 
 <details>
 <summary
 
 ## Sarf (Kelime)
-
-</summary>
-</details>
 
 ### Emsile
 
@@ -39,6 +30,9 @@ Mastar (kitabet - yazmak)
 ### Binâ
 ### Maksut
 ### İzzi
+
+</summary>
+</details>
 
 ## Nahiv (Cümle)
 
