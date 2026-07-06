@@ -14,6 +14,12 @@
 
 * Kök hâlindeki *mastar* kelimeyi 24 farklı sigaya çekebilmektir.
 
+* Fiil-i Mazi (ketebe - yazdı)
+Fiil-i Muzari (yektübü - yazıyor)
+Mastar (kitabet - yazmak)
+İsm-i Fail (katib - yazan)
+İsm-i Mef'ul (mektubu - yazılan)
+
 ##### İsim
 
 ##### Fiil
