@@ -1,7 +1,9 @@
 <details>
+<summary>
 
 # Arapça
 
+</summary>
 </details>
 
 ## Sarf (Kelime)
