@@ -31,7 +31,9 @@ Mastar (kitabet - yazmak)
 ##### Fiil
 
 ### Binâ
+
 ### Maksut
+
 ### İzzi
 
 </details>
@@ -45,7 +47,9 @@ Mastar (kitabet - yazmak)
 </summary>
 
 ### Avâmil
+
 ### İzhar
+
 ### Kâfiye
 
 </details>
