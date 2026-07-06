@@ -5,6 +5,8 @@
 
 ## Sarf (Kelime)
 
+</summary>
+
 ### Emsile
 
 #### Muttaride
@@ -31,7 +33,6 @@ Mastar (kitabet - yazmak)
 ### Maksut
 ### İzzi
 
-</summary>
 </details>
 
 ## Nahiv (Cümle)
