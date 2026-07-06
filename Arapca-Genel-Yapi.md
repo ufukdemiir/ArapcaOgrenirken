@@ -4,7 +4,7 @@
 
 <summary>
 
-## Sarf (Kelime)
+## Sarf (Kelime)  
 
 </summary>
 
@@ -42,7 +42,7 @@ Mastar (kitabet - yazmak)
 
 <summary>
 
-## Nahiv (Cümle)
+## Nahiv (Cümle)  
 
 </summary>
 
