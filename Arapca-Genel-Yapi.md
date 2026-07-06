@@ -6,7 +6,13 @@
 </summary>
 </details>
 
+<details>
+<summary
+
 ## Sarf (Kelime)
+
+</summary>
+</details>
 
 ### Emsile
 
