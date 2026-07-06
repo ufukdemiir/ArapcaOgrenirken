@@ -12,6 +12,8 @@
 
 #### Muhtelife
 
+* Kök hâlindeki *mastar* kelimeyi 24 farklı sigaya çekebilmektir.
+
 ##### İsim
 
 ##### Fiil
