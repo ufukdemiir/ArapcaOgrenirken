@@ -1,16 +1,25 @@
 # Arapça
 
-## Sarf (Kelime)
 <details>
-<summary>Detayları Göster/Gizle</summary>
+
+<summary>
+
+## Sarf (Kelime)  
+
+</summary>
 
 ### Emsile
+
 #### Muttaride
+
 ##### Ma'lûm
+
 ##### Meçhûl
 
 #### Muhtelife
+
 * Kök hâlindeki *mastar* kelimeyi 24 farklı sigaya çekebilmektir.
+
 * Fiil-i Mazi (ketebe - yazdı)
 Fiil-i Muzari (yektübü - yazıyor)
 Mastar (kitabet - yazmak)
@@ -18,18 +27,29 @@ Mastar (kitabet - yazmak)
 İsm-i Mef'ul (mektubu - yazılan)
 
 ##### İsim
+
 ##### Fiil
 
 ### Binâ
+
 ### Maksut
+
 ### İzzi
+
 </details>
 
-## Nahiv (Cümle)
 <details>
-<summary>Detayları Göster/Gizle</summary>
+
+<summary>
+
+## Nahiv (Cümle)  
+
+</summary>
 
 ### Avâmil
+
 ### İzhar
+
 ### Kâfiye
+
 </details>
