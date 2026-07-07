@@ -4,9 +4,13 @@
 <summary><b><font size="5">1.1. Sarf (Kelime)</font></b></summary>
 <br>
 
+Notlar buraya.
+
 <details>
 <summary><b>1.1.1. Emsile</b></summary>
 <br>
+
+Notlar buraya.
 
 <details>
 <summary><b>1.1.1.1. Muttaride</b></summary>
@@ -119,6 +123,8 @@ Kök hâlindeki mastar kelimeyi 24 farklı sigaya çekebilmektir.
 <details>
 <summary><b><font size="5">1.2. Nahiv (Cümle)</font></b></summary>
 <br>
+
+Notlar buraya.
 
 <details>
 <summary><b>1.2.1. Avâmil</b></summary>
