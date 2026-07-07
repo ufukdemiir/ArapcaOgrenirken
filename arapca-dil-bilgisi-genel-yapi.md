@@ -43,9 +43,9 @@ Mastar hâlindeki kök kelimeyi 24 farklı sigaya çekebilmektir.
 
 ---
 
-• **Mastar Hâl:** nasara (yardım etmek) - kitabet (yazmak)  
+• **Mastar Hâl:** nasran (yardım etmek) - kitabet (yazmak)  
 
-
+Mastarlar, semaîdir. Yani duyarak öğrenilir, bir kalıbı yoktur, Araplardan nasıl duyulmuşsa öyle kullanılmadır.
 
 ---
 • **Fiil-i Mazi (geçmiş zaman):** nasara (yardım etti) - ketebe (yazdı) - faale (yaptı) - ğafara (bağışladı) - şekera (şükretti) - ğafarAllahu (Allah (c.c.) bağışladı) - ketebettâlibu (öğrenci yazdı)  
