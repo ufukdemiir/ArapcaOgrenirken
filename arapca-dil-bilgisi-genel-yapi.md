@@ -43,33 +43,36 @@ Mastar hâlindeki kök kelimeyi 24 farklı sigaya çekebilmektir.
 
 ---
 
-• **Mastar Hâl:** nasran (yardım etmek) - kitabet (yazmak)  
-
-Mastarlar, semaîdir. Yani duyarak öğrenilir, bir kalıbı yoktur, Araplardan nasıl duyulmuşsa öyle kullanılmadır.
-
----
-• **Fiil-i Mazi (geçmiş zaman):** nasara (yardım etti) - ketebe (yazdı) - faale (yaptı) - ğafara (bağışladı) - şekera (şükretti) - ğafarAllahu (Allah (c.c.) bağışladı) - ketebettâlibu (öğrenci yazdı)  
+• **Fiil-i Mazi (geçmiş zaman):** نَصَرَ - nasara (yardım etti) - ketebe (yazdı) - faale (yaptı) - ğafara (bağışladı) - şekera (şükretti) - ğafarAllahu (Allah (c.c.) bağışladı) - ketebettâlibu (öğrenci yazdı)  
 
 
 İlk ve son harfi kesinlikle fethalı (a/e) olur.  
 
 
 ---
-• **Fiil-i Muzari (şimdiki zaman - geniş zaman - gelecek zaman):** yektübü (yazıyor - yazar - yazcak))  
+
+• **Fiil-i Muzari (şimdiki zaman - geniş zaman - gelecek zaman):** يَنْصُرُ - yensuru (yardım ediyor - yardım eder - yardım edecek) - yektübü (yazıyor - yazar - yazcak))  
 
 
 Üç zamanı ifade edebilmekle birlikte genellikle şimdiki zamanı ifade eder. Sondan bir önceki harfin harekesi değişebilir. (yef'alu - yapıyor - yapar - yapacak)  
 
+---
+
+• **Mastar Hâl:** نَصْرًا- nasran (yardım etmek) - kitabeten (yazmak) - ğufranun (bağışlamak)
+
+Mastarlar, semaîdir. Yani duyarak öğrenilir, bir kalıbı yoktur, Araplardan nasıl duyulmuşsa öyle kullanılmadır.
 
 ---
-• **İsm-i Fail:** katib (yazan)  
 
+• **İsm-i Fail:** نَاصِرٌ - nâsirun (yardım eden) - kâtibun (yazan) - şâkirun (şükreden) - zâkirun (zikreden) - ğâfirun (bağışlayan) - fâilun (yapan) - âbidun (kulluk eden) - hâsidun (haset eden)
 
+İlk harfinden sonra elif eklenerek eylemi gerçekleştiren kişi anlamı verilir.
 
 ---
-• **İsm-i Mef'ul:** mektûb (yazılan)  
 
+• **İsm-i Mef'ul:** مَنْصُورٌ - mensûrun (yardım edilen) - mektûbun (yazılan) - mağfurun (affedilen) - meşkûrun (şükredilen) - mef'ûlun (yapılan) - me'kûlün (yenilen)
 
+Failin yaptığından etkilenen kişiyi ifade eder. Yaklaşık olarak ".....-an şey" anlamı verir. 
 
 ---
 
