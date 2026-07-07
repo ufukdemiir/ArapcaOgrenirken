@@ -15,14 +15,14 @@
 Bir siganın kendi içindeki şahıs, cinsiyet ve sayı çekimleridir.
 
 <details>
-<summary>1.1.1.1.1. Ma'lûm</summary>
+<summary><b>1.1.1.1.1. Ma'lûm</b></summary>
 <br>
 
 *Etken fiil çekim notları buraya gelecek.*
 </details>
 
 <details>
-<summary>1.1.1.1.2. Meçhûl</summary>
+<summary><b>1.1.1.1.2. Meçhûl</b></summary>
 <br>
 
 *Edilgen fiil çekim notları buraya gelecek.*
@@ -45,14 +45,42 @@ Kök hâlindeki *mastar* kelimeyi 24 farklı sigaya çekebilmektir.
 ```
 
 <details>
-<summary>1.1.1.2.1. İsim</summary>
+<summary><b>1.1.1.2.1. İsim</b></summary>
 <br>
 
 *İsim sigaları buraya gelecek.*
 </details>
 
 <details>
-<summary>1.1.1.2.2. Fiil</summary>
+<summary><b>1.1.1.2.1.1. İsmi Fâil</b></summary>
+<br>
+
+*İsim sigaları buraya gelecek.*
+</details>
+
+<details>
+<summary><b>1.1.1.2.1.2. İsmi Mef'ul</b></summary>
+<br>
+
+*İsim sigaları buraya gelecek.*
+</details>
+
+<details>
+<summary><b>1.1.1.2.2. Fiil</b></summary>
+<br>
+
+*Fiil sigaları buraya gelecek.*
+</details>
+
+<details>
+<summary><b>1.1.1.2.2.1. Fiil-i Muzâri</b></summary>
+<br>
+
+*Fiil sigaları buraya gelecek.*
+</details>
+
+<details>
+<summary><b>1.1.1.2.2.2. Fiil-i Mâzi</b></summary>
 <br>
 
 *Fiil sigaları buraya gelecek.*
