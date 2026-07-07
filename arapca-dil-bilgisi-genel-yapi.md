@@ -7,16 +7,16 @@
 Notlar buraya.
 
 <details>
-<summary><b>1.1.1. Emsile</b></summary>
+<summary><b>1.1.1. Emsile (kitap)</b></summary>
 <br>
 
-Notlar buraya.
+Yazarı kesin olarak bilinmemekle birlikte Hz. Ali veya İmam-ı Azam Ebu Hanife olabileceği yönünde iddialar mevcuttur.
 
 <details>
 <summary><b>1.1.1.1. Muttaride</b></summary>
 <br>
 
-Bir siganın kendi içindeki şahıs, cinsiyet ve sayı çekimleridir.
+Birinci, ikinci ve üçüncü tekil şahısta isimleri ve fiilleri düzenlemektir. 
 
 <details>
 <summary><b>1.1.1.1.1. Ma'lûm</b></summary>
@@ -38,16 +38,40 @@ Bir siganın kendi içindeki şahıs, cinsiyet ve sayı çekimleridir.
 <summary><b>1.1.1.2. Muhtelife</b></summary>
 <br>
 
-```
-Kök hâlindeki mastar kelimeyi 24 farklı sigaya çekebilmektir.
 
-• Fiil-i Mazi: ketebe (yazdı)
-• Fiil-i Muzari: yektübü (yazıyor)
-• Mastar: kitabet (yazmak)
-• İsm-i Fail: katib (yazan)
-• İsm-i Mef'ul: mektûb (yazılan)
-```
+Mastar hâlindeki kök kelimeyi 24 farklı sigaya çekebilmektir.  
 
+---
+
+• **Mastar Hâl:** nasara (yardım etmek) - kitabet (yazmak)  
+
+
+
+---
+• **Fiil-i Mazi (geçmiş zaman):** nasara (yardım etti) - ketebe (yazdı) - faale (yaptı) - ğafara (bağışladı) - şekera (şükretti) - ğafarAllahu (Allah (c.c.) bağışladı) - ketebettâlibu (öğrenci yazdı)  
+
+
+İlk ve son harfi kesinlikle fethalı (a/e) olur.  
+
+
+---
+• **Fiil-i Muzari (şimdiki zaman - geniş zaman - gelecek zaman):** yektübü (yazıyor - yazar - yazcak))  
+
+
+Üç zamanı ifade edebilmekle birlikte genellikle şimdiki zamanı ifade eder. Sondan bir önceki harfin harekesi değişebilir. (yef'alu - yapıyor - yapar - yapacak)  
+
+
+---
+• **İsm-i Fail:** katib (yazan)  
+
+
+
+---
+• **İsm-i Mef'ul:** mektûb (yazılan)  
+
+
+
+---
 
 <details>
 <summary><b>1.1.1.2.1. İsim</b></summary>
@@ -98,21 +122,21 @@ Kök hâlindeki mastar kelimeyi 24 farklı sigaya çekebilmektir.
 </details>
 
 <details>
-<summary><b>1.1.2. Binâ</b></summary>
+<summary><b>1.1.2. Binâ (kitap)</b></summary>
 <br>
 
 *35 bab ve fiil yapıları buraya gelecek.*
 </details>
 
 <details>
-<summary><b>1.1.3. Maksut</b></summary>
+<summary><b>1.1.3. Maksut (kitap)</b></summary>
 <br>
 
 *İlal kuralları ve kaideleri buraya gelecek.*
 </details>
 
 <details>
-<summary><b>1.1.4. İzzi</b></summary>
+<summary><b>1.1.4. İzzi (kitap)</b></summary>
 <br>
 
 *İleri düzey sarf notları buraya gelecek.*
