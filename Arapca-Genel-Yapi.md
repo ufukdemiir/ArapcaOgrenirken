@@ -35,7 +35,7 @@ Bir siganın kendi içindeki şahıs, cinsiyet ve sayı çekimleridir.
 <br>
 
 ```
-Kök hâlindeki *mastar* kelimeyi 24 farklı sigaya çekebilmektir.
+Kök hâlindeki mastar kelimeyi 24 farklı sigaya çekebilmektir.
 
 • Fiil-i Mazi: ketebe (yazdı)
 • Fiil-i Muzari: yektübü (yazıyor)
@@ -44,12 +44,12 @@ Kök hâlindeki *mastar* kelimeyi 24 farklı sigaya çekebilmektir.
 • İsm-i Mef'ul: mektûb (yazılan)
 ```
 
+
 <details>
 <summary><b>1.1.1.2.1. İsim</b></summary>
 <br>
 
 *İsim sigaları buraya gelecek.*
-</details>
 
 <details>
 <summary><b>1.1.1.2.1.1. İsmi Fâil</b></summary>
@@ -65,12 +65,13 @@ Kök hâlindeki *mastar* kelimeyi 24 farklı sigaya çekebilmektir.
 *İsim sigaları buraya gelecek.*
 </details>
 
+</details>
+
 <details>
 <summary><b>1.1.1.2.2. Fiil</b></summary>
 <br>
 
 *Fiil sigaları buraya gelecek.*
-</details>
 
 <details>
 <summary><b>1.1.1.2.2.1. Fiil-i Muzâri</b></summary>
@@ -84,6 +85,8 @@ Kök hâlindeki *mastar* kelimeyi 24 farklı sigaya çekebilmektir.
 <br>
 
 *Fiil sigaları buraya gelecek.*
+</details>
+
 </details>
 
 </details>
