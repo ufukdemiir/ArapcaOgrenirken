@@ -4,7 +4,7 @@
 <summary><b><font size="5">1.1. Sarf (Kelime)</font></b></summary>
 <br>
 
-Notlar buraya.
+Arapça'da sarf, kelimelerin köklerinden yola çıkarak nasıl türetildiğini, yapısal kalıplarını ve bu değişimlerin kelimeye kazandırdığı anlam farklılıklarını inceleyen "kelime morfolojisi" ilmidir.
 
 <details>
 <summary><b>1.1.1. Emsile (kitap)</b></summary>
