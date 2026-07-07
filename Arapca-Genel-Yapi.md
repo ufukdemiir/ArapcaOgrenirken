@@ -37,11 +37,11 @@ Bir siganın kendi içindeki şahıs, cinsiyet ve sayı çekimleridir.
 ```
 Kök hâlindeki *mastar* kelimeyi 24 farklı sigaya çekebilmektir.
 
-Fiil-i Mazi: `ketebe` (yazdı)
-Fiil-i Muzari: `yektübü` (yazıyor)
-Mastar: `kitabet` (yazmak)
-İsm-i Fail: `katib` (yazan)
-İsm-i Mef'ul: `mektûb` (yazılan)
+• Fiil-i Mazi: ketebe (yazdı)
+• Fiil-i Muzari: yektübü (yazıyor)
+• Mastar: kitabet (yazmak)
+• İsm-i Fail: katib (yazan)
+• İsm-i Mef'ul: mektûb (yazılan)
 ```
 
 <details>
