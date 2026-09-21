@@ -20,13 +20,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.2.2
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v4.4.0
         with:
-          node-version: "20"
+          node-version: "22"
       - name: Install dependencies
-        run: npm ci
+        run: npm install
       - name: Build with Astro
         run: npm run build
       - name: Upload artifact
@@ -44,4 +44,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v4.0.5
