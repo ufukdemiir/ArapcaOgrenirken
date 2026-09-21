@@ -1,0 +1,81 @@
+backend:
+  name: git-gateway
+  branch: main
+
+local_backend: true
+site_url: https://ufukdemir.github.io/arapca-ogrenirken
+display_url: https://ufukdemir.github.io/arapca-ogrenirken
+logo_url: https://ufukdemir.github.io/arapca-ogrenirken/favicon.svg
+
+locale: 'tr'
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "notlar"
+    label: "Ders Notları"
+    folder: "src/content/notlar"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Başlık", name: "title", widget: "string"}
+      - {label: "Kategori", name: "category", widget: "select", options: ["Emsile", "Binâ", "Maksut", "İzzi", "Avâmil", "İzhar", "Kâfiye", "Bağımsız"]}
+      - {label: "Yayın Tarihi", name: "publishDate", widget: "datetime"}
+      - {label: "Etiketler", name: "tags", widget: "list"}
+      - {label: "İçerik", name: "body", widget: "markdown"}
+
+  - name: "kelimeler"
+    label: "Kelimeler (Sözlük)"
+    folder: "src/content/kelimeler"
+    create: true
+    fields:
+      - {label: "Kelime (Arapça)", name: "word", widget: "string"}
+      - {label: "Anlamı", name: "meaning", widget: "string"}
+      - {label: "İlk Harf (Filtre için)", name: "firstLetter", widget: "string"}
+      - {label: "Örnek Cümle (Arapça)", name: "exampleSentence", widget: "string", required: false}
+      - {label: "Örnek Çeviri", name: "exampleTranslation", widget: "string", required: false}
+      - {label: "Tarih", name: "publishDate", widget: "datetime"}
+
+  - name: "ornek-cumleler"
+    label: "Örnek Cümleler"
+    folder: "src/content/ornek-cumleler"
+    create: true
+    fields:
+      - {label: "Arapça Cümle", name: "arabicSentence", widget: "string"}
+      - {label: "Türkçe Çeviri", name: "turkishTranslation", widget: "string"}
+      - {label: "İ'rap Tahlili", name: "irapAnalysis", widget: "markdown", required: false}
+      - {label: "Kaynak/Not", name: "sourceNote", widget: "string", required: false}
+      - {label: "Tarih", name: "publishDate", widget: "datetime"}
+
+  - name: "metinler"
+    label: "Okuma Metinleri"
+    folder: "src/content/metinler"
+    create: true
+    fields:
+      - {label: "Başlık", name: "title", widget: "string"}
+      - {label: "Seviye", name: "level", widget: "select", options: ["Temel", "Başlangıç", "Orta", "İleri", "Uzman"]}
+      - {label: "Arapça Metin", name: "arabicText", widget: "markdown"}
+      - {label: "Türkçe Çeviri", name: "turkishTranslation", widget: "markdown"}
+      - {label: "Notlar", name: "notes", widget: "markdown", required: false}
+      - {label: "Tarih", name: "publishDate", widget: "datetime"}
+
+  - name: "blog"
+    label: "Blog & Süreç"
+    folder: "src/content/blog"
+    create: true
+    fields:
+      - {label: "Başlık", name: "title", widget: "string"}
+      - {label: "Yazı Tipi", name: "postType", widget: "select", options: ["Tavsiye", "Uyarı", "Süreç Notu", "Genel"]}
+      - {label: "Tarih", name: "publishDate", widget: "datetime"}
+      - {label: "İçerik", name: "body", widget: "markdown"}
+
+  - name: "araclar"
+    label: "Araçlar & Kaynaklar"
+    folder: "src/content/araclar"
+    create: true
+    fields:
+      - {label: "Başlık", name: "title", widget: "string"}
+      - {label: "Tür", name: "type", widget: "select", options: ["PDF/Doküman", "İnteraktif Araç", "Dış Bağlantı"]}
+      - {label: "Açıklama", name: "description", widget: "text"}
+      - {label: "Bağlantı/Dosya URL", name: "linkOrFile", widget: "string"}
+      - {label: "Tarih", name: "publishDate", widget: "datetime"}

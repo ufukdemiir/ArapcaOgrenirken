@@ -1,0 +1,18 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import RandomCard from '../components/RandomCard.astro';
+---
+<BaseLayout>
+  <section class="py-12 md:py-20 max-w-3xl mx-auto text-center">
+    <h1 class="text-4xl md:text-5xl font-bold tracking-tight mb-6 text-gray-900 dark:text-white">
+      Sürtünmesiz Bir <span class="text-indigo-600 dark:text-indigo-400">Dijital Bahçe</span>
+    </h1>
+    <p class="text-lg text-gray-600 dark:text-gray-300 leading-relaxed mb-10">
+      Katı akademinin baskıcı müfredatından sıyrılın. Arapça öğrenim sürecinizi kendi ritminizde, esnek notlarla ve zengin içeriklerle biriktirdiğiniz estetik bir bahçeye dönüştürün.
+    </p>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <RandomCard type="word" buttonText="Rastgele Kelime Getir" />
+      <RandomCard type="sentence" buttonText="Rastgele Cümle Getir" />
+    </div>
+  </section>
+</BaseLayout>
