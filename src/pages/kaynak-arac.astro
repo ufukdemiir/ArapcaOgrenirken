@@ -1,0 +1,21 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const araclar = await getCollection('araclar');
+---
+<BaseLayout title="Kaynaklar & Araçlar | Arapça Öğrenirken">
+  <div class="max-w-4xl mx-auto">
+    <h1 class="text-3xl font-bold mb-6 text-slate-900 dark:text-white">Kaynaklar ve Araçlar</h1>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      {araclar.map(a => (
+        <div class="p-6 bg-white dark:bg-darkbg-card rounded-xl border border-brand-100 dark:border-darkbg-border shadow-sm">
+          <span class="text-xs bg-slate-100 dark:bg-darkbg-base px-2 py-1 rounded text-slate-600 dark:text-slate-400">{a.data.type}</span>
+          <h2 class="text-xl font-bold mt-2 text-slate-900 dark:text-white">{a.data.title}</h2>
+          <p class="text-sm text-slate-600 dark:text-slate-400 mt-2 mb-4">{a.data.description}</p>
+          <a href={a.data.linkOrFile} target="_blank" class="text-brand-600 dark:text-brand-400 font-medium text-sm hover:underline">Eriş &rarr;</a>
+        </div>
+      ))}
+    </div>
+  </div>
+</BaseLayout>

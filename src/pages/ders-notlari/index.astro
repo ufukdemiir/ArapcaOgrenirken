@@ -1,0 +1,20 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const notlar = await getCollection('notlar');
+---
+<BaseLayout title="Ders Notları | Arapça Öğrenirken">
+  <div class="max-w-4xl mx-auto">
+    <h1 class="text-3xl font-bold mb-6 text-slate-900 dark:text-white">Ders Notları</h1>
+    <div class="grid gap-4">
+      {notlar.map(n => (
+        <article class="p-6 bg-white dark:bg-darkbg-card rounded-xl border border-brand-100 dark:border-darkbg-border hover:border-brand-500 transition-colors shadow-sm">
+          <span class="text-xs font-bold text-gold-600 dark:text-gold-500 uppercase tracking-wider">{n.data.category}</span>
+          <h2 class="text-2xl font-bold mt-1 mb-2 text-slate-900 dark:text-white">{n.data.title}</h2>
+          <div class="text-sm text-slate-500">{new Date(n.data.publishDate).toLocaleDateString('tr-TR')}</div>
+        </article>
+      ))}
+    </div>
+  </div>
+</BaseLayout>

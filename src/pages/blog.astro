@@ -1,0 +1,19 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const posts = await getCollection('blog');
+---
+<BaseLayout title="Blog | Arapça Öğrenirken">
+  <div class="max-w-4xl mx-auto">
+    <h1 class="text-3xl font-bold mb-6 text-slate-900 dark:text-white">Blog & Süreç Notları</h1>
+    <div class="space-y-4">
+      {posts.map(p => (
+        <article class="p-6 bg-white dark:bg-darkbg-card rounded-xl border border-brand-100 dark:border-darkbg-border shadow-sm">
+          <span class="text-xs text-gold-600 dark:text-gold-500 font-semibold uppercase">{p.data.postType}</span>
+          <h2 class="text-2xl font-bold mt-1 text-slate-900 dark:text-white">{p.data.title}</h2>
+        </article>
+      ))}
+    </div>
+  </div>
+</BaseLayout>

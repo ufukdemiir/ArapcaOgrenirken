@@ -1,0 +1,23 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import RoadmapTree from '../components/RoadmapTree.astro';
+---
+<BaseLayout title="Yol Haritası | Arapça Öğrenirken">
+  <div class="max-w-4xl mx-auto">
+    <header class="mb-10">
+      <h1 class="text-3xl font-bold mb-3 text-slate-900 dark:text-white">Öğrenim Yol Haritası</h1>
+      <p class="text-slate-600 dark:text-slate-400">Klasik medrese müfredat hiyerarşisine dayalı, kademeli öğrenim rehberi.</p>
+    </header>
+    <div class="space-y-8">
+      <section class="bg-white dark:bg-darkbg-card rounded-xl p-6 border border-brand-100 dark:border-darkbg-border shadow-sm">
+        <h2 class="text-xl font-bold mb-2 text-gold-600 dark:text-gold-500">1. Aşama: Hazırlık</h2>
+        <p class="text-slate-600 dark:text-slate-400">Elif-ba, harf birleşimleri ve temel okuma pratikleri.</p>
+      </section>
+      <RoadmapTree />
+      <section class="bg-white dark:bg-darkbg-card rounded-xl p-6 border border-brand-100 dark:border-darkbg-border shadow-sm">
+        <h2 class="text-xl font-bold mb-2 text-gold-600 dark:text-gold-500">3. Aşama: Tatbikat & Derinleşme</h2>
+        <p class="text-slate-600 dark:text-slate-400">Metin okumaları, ayet/hadis tahlilleri ve Belâgat çalışmaları.</p>
+      </section>
+    </div>
+  </div>
+</BaseLayout>

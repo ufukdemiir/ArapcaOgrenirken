@@ -1,0 +1,21 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const metinler = await getCollection('metinler');
+---
+<BaseLayout title="Metinler | Arapça Öğrenirken">
+  <div class="max-w-4xl mx-auto">
+    <h1 class="text-3xl font-bold mb-6 text-slate-900 dark:text-white">Okuma Metinleri</h1>
+    <div class="space-y-6">
+      {metinler.map(m => (
+        <div class="bg-white dark:bg-darkbg-card p-6 rounded-xl border border-brand-100 dark:border-darkbg-border shadow-sm">
+          <span class="text-xs bg-brand-50 dark:bg-brand-950 text-brand-700 dark:text-brand-400 border border-brand-200 dark:border-brand-900 px-2.5 py-1 rounded font-medium">{m.data.level}</span>
+          <h2 class="text-2xl font-bold mt-3 mb-4 text-slate-900 dark:text-white">{m.data.title}</h2>
+          <p dir="rtl" class="font-amiri text-2xl leading-loose mb-4 text-brand-700 dark:text-brand-400">{m.data.arabicText}</p>
+          <p dir="ltr" class="text-slate-700 dark:text-slate-300">{m.data.turkishTranslation}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</BaseLayout>

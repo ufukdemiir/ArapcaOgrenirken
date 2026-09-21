@@ -1,0 +1,32 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const notlar = await getCollection('notlar');
+const kelimeler = await getCollection('kelimeler');
+const cumleler = await getCollection('ornek-cumleler');
+const metinler = await getCollection('metinler');
+---
+<BaseLayout title="İstatistikler | Arapça Öğrenirken">
+  <div class="max-w-4xl mx-auto">
+    <h1 class="text-3xl font-bold mb-6 text-slate-900 dark:text-white">Dijital Bahçe Metrikleri</h1>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div class="p-6 bg-white dark:bg-darkbg-card rounded-xl border border-brand-100 dark:border-darkbg-border text-center shadow-sm">
+        <div class="text-3xl font-bold text-brand-500">{notlar.length}</div>
+        <div class="text-sm text-slate-500 mt-1">Ders Notu</div>
+      </div>
+      <div class="p-6 bg-white dark:bg-darkbg-card rounded-xl border border-brand-100 dark:border-darkbg-border text-center shadow-sm">
+        <div class="text-3xl font-bold text-brand-500">{kelimeler.length}</div>
+        <div class="text-sm text-slate-500 mt-1">Kelime</div>
+      </div>
+      <div class="p-6 bg-white dark:bg-darkbg-card rounded-xl border border-brand-100 dark:border-darkbg-border text-center shadow-sm">
+        <div class="text-3xl font-bold text-brand-500">{cumleler.length}</div>
+        <div class="text-sm text-slate-500 mt-1">Cümle</div>
+      </div>
+      <div class="p-6 bg-white dark:bg-darkbg-card rounded-xl border border-brand-100 dark:border-darkbg-border text-center shadow-sm">
+        <div class="text-3xl font-bold text-brand-500">{metinler.length}</div>
+        <div class="text-sm text-slate-500 mt-1">Metin</div>
+      </div>
+    </div>
+  </div>
+</BaseLayout>

@@ -1,0 +1,21 @@
+---
+const currentYear = new Date().getFullYear();
+const startYear = 2026;
+const displayYear = currentYear > startYear ? `${startYear} – ${currentYear}` : `${startYear}`;
+const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+<footer class="bg-white dark:bg-darkbg-card border-t border-brand-100 dark:border-darkbg-border mt-auto">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+      <div class="text-sm text-slate-500 dark:text-slate-400">
+        &copy; {displayYear} | Arapça Öğrenirken — Ufuk Demir. Tüm hakları saklıdır.
+      </div>
+      <div class="flex flex-wrap items-center gap-4">
+        <a href={`${baseUrl}/arsiv/`} class="text-sm text-brand-600 dark:text-brand-400 hover:underline">Hızlı Arşiv</a>
+        <a href={`${baseUrl}/admin/`} class="text-sm font-medium px-3 py-1.5 bg-brand-500 text-white dark:bg-brand-500 dark:text-white rounded-md hover:bg-brand-600 transition-colors shadow-sm">
+          Yönetim Paneli
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
