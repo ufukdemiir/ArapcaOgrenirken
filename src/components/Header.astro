@@ -1,41 +1,20 @@
 ---
-const navItems = [
-  { path: '/ArapcaOgrenirken/yol-haritasi/', label: 'Yol Haritası' },
-  { path: '/ArapcaOgrenirken/ders-notlari/', label: 'Ders Notları' },
-  { path: '/ArapcaOgrenirken/sozluk/', label: 'Sözlük' },
-  { path: '/ArapcaOgrenirken/cumle-defteri/', label: 'Cümle Defteri' },
-  { path: '/ArapcaOgrenirken/metinler/', label: 'Metinler' },
-  { path: '/ArapcaOgrenirken/blog/', label: 'Blog' },
-  { path: '/ArapcaOgrenirken/kaynak-arac/', label: 'Kaynak & Araç' },
-  { path: '/ArapcaOgrenirken/istatistikler/', label: 'İstatistikler' },
-  { path: '/ArapcaOgrenirken/arsiv/', label: 'Arşiv' },
-];
+const currentYear = new Date().getFullYear();
+const startYear = 2026;
+const displayYear = currentYear > startYear ? `${startYear} – ${currentYear}` : `${startYear}`;
 ---
-<header class="sticky top-0 z-40 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md border-b border-gray-200 dark:border-gray-800">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="flex items-center justify-between h-16 overflow-x-auto">
-      <a href="/ArapcaOgrenirken/" class="flex-shrink-0 pr-6 mr-6 border-r border-gray-300 dark:border-gray-700">
-        <div class="font-serif text-xl sm:text-2xl font-bold leading-tight tracking-wide text-gray-900 dark:text-white">
-          Arapça<br/>
-          <span class="text-indigo-600 dark:text-indigo-400">Öğrenirken</span>
-        </div>
-      </a>
-      <nav class="flex space-x-4 sm:space-x-6 min-w-max items-center">
-        {navItems.map(item => (
-          <a href={item.path} class="text-sm font-medium text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white transition-colors">
-            {item.label}
-          </a>
-        ))}
-        <button id="theme-toggle" class="ml-4 p-2 rounded-full text-gray-500 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
-          🌙
-        </button>
-      </nav>
+<footer class="bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800 mt-auto">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+      <div class="text-sm text-gray-500 dark:text-gray-400">
+        &copy; {displayYear} | Arapça Öğrenirken. Tüm hakları saklıdır.
+      </div>
+      <div class="flex flex-wrap items-center gap-4">
+        <a href="/ArapcaOgrenirken/arsiv/" class="text-sm text-indigo-600 dark:text-indigo-400 hover:underline">Hızlı Arşiv</a>
+        <a href="/ArapcaOgrenirken/admin/" class="text-sm font-medium px-3 py-1 bg-gray-900 text-white dark:bg-gray-100 dark:text-gray-900 rounded-md hover:opacity-90 transition-opacity">
+          Yönetim Paneli
+        </a>
+      </div>
     </div>
   </div>
-</header>
-<script>
-  document.getElementById('theme-toggle')?.addEventListener('click', () => {
-    document.documentElement.classList.toggle('dark');
-    localStorage.theme = document.documentElement.classList.contains('dark') ? 'dark' : 'light';
-  });
-</script>
+</footer>
