@@ -1,15 +1,17 @@
 ---
-const base = import.meta.env.BASE_URL;
+const rawBase = import.meta.env.BASE_URL || '/';
+const base = rawBase.endsWith('/') ? rawBase : `${rawBase}/`;
+
 const navItems = [
-  { path: `${base}yol-haritasi/`, label: 'Yol Haritası' },
-  { path: `${base}ders-notlari/`, label: 'Ders Notları' },
-  { path: `${base}sozluk/`, label: 'Sözlük' },
-  { path: `${base}cumle-defteri/`, label: 'Cümle Defteri' },
-  { path: `${base}metinler/`, label: 'Metinler' },
-  { path: `${base}blog/`, label: 'Blog' },
-  { path: `${base}kaynak-arac/`, label: 'Kaynak & Araç' },
-  { path: `${base}istatistikler/`, label: 'İstatistikler' },
-  { path: `${base}arsiv/`, label: 'Arşiv' },
+  { path: `${base}yol-haritasi`, label: 'Yol Haritası' },
+  { path: `${base}ders-notlari`, label: 'Ders Notları' },
+  { path: `${base}sozluk`, label: 'Sözlük' },
+  { path: `${base}cumle-defteri`, label: 'Cümle Defteri' },
+  { path: `${base}metinler`, label: 'Metinler' },
+  { path: `${base}blog`, label: 'Blog' },
+  { path: `${base}kaynak-arac`, label: 'Kaynak & Araç' },
+  { path: `${base}istatistikler`, label: 'İstatistikler' },
+  { path: `${base}arsiv`, label: 'Arşiv' },
 ];
 ---
 <header class="sticky top-0 z-40 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md border-b border-gray-200 dark:border-gray-800">
